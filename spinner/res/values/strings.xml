@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spinner</string>
+    <string name="hello">Hello World, SpinnerActivity!</string>
+    <string name="add">添加下拉选项</string>
+    <string name="remove">移除下拉选项</string>
+    
+    <string-array name = "cities" >
+                   <item > 北京 </item >
+                   <item > 上海 </item >
+                   <item > 南京 </item >
+                   <item > 乌鲁木齐 </item >
+                   <item > 哈尔滨 </item >
+                   <item > 符拉迪沃斯托克 </item >
+      </string-array >
+</resources>

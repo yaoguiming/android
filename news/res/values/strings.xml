@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">News</string>
+    <string name="hello">Hello World, NewsActivity!</string>
+    <string name="timelength">时长：</string>
+    <string name="min">分钟</string>
+
+</resources>

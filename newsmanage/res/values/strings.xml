@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Newsmanage</string>
+    <string name="hello">Hello World, NewsmanageActivity!</string>
+
+     <string name="title">视频标题</string>
+     <string name="timelength">时长</string>
+     <string name="button">保存</string>
+     <string name="success">保存成功</string>
+     <string name="error">保存失败</string>
+     <string name="filename">文件名称</string>
+</resources>

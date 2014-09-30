@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator">
+    <!-- 
+    Tween Animations的通用方法
+　　１、setDuration(long durationMills)
+　　设置动画持续时间（单位：毫秒）
+　　２、setFillAfter(Boolean fillAfter)
+　　如果fillAfter的值为true,则动画执行后，控件将停留在执行结束的状态
+　　３、setFillBefore(Boolean fillBefore)
+　　如果fillBefore的值为true，则动画执行后，控件将回到动画执行之前的状态
+　　４、setStartOffSet(long startOffSet)
+　　设置动画执行之前的等待时间
+　　５、setRepeatCount(int repeatCount)
+　　设置动画重复执行的次数
+     -->
+<!-- fromAlpha和toAlpha是起始透明度和结束时透明度 -->
+<!-- 效果叠加 -->
+    <alpha
+        android:fromAlpha="1.0"
+        android:toAlpha="0.0"
+        android:startOffset="500"
+        android:duration="5000"/>
+     <translate
+        android:fromXDelta="0%"
+        android:toXDelta="100%"
+        android:fromYDelta="0%"
+        android:toYDelta="100%"
+        android:duration="2000"/>
+</set>
