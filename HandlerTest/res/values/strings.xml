@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HandlerTest</string>
+    <string name="hello">Hello World, HandlerTestActivity!</string>
+    <string name="start">开始线程Handler</string>
+    <string name="end">结束线程Handler</string>
+
+</resources>
