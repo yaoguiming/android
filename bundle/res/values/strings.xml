@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bundle</string>
+    <string name="hello">Hello World, BundleActivity!</string>
+    <string name="result">结果处理！！</string>
+    <string name="forward">页面跳转</string>
+    <string name="back">返回</string>
+    <string name="alpha">淡入淡出效果</string>
+    <string name="scale">缩放效果</string>
+    <string name="rotate">旋转效果</string>
+    <string name="translate">移动效果</string>
+
+</resources>

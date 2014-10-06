@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 数字显示区域 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <!-- 带有边框的TextView -->
+        <TextView
+        android:layout_width="320dp"
+        android:layout_height="120dp"
+        android:background="@drawable/textview_border" 
+        android:text="@string/tempResult" 
+        android:id="@+id/textView"/>
+        
+    </LinearLayout>
+    <!-- 数字、操作符区域 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/seven" 
+        android:id="@+id/seven"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/eight" 
+        android:id="@+id/eight"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/nine" 
+        android:id="@+id/nine"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/multiply" 
+        android:id="@+id/multiply"/>
+    
+    </LinearLayout>
+       <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/four"
+        android:id="@+id/four" />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/five" 
+        android:id="@+id/five"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/six" 
+        android:id="@+id/six"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/minus" 
+        android:id="@+id/minus"/>
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/one" 
+        android:id="@+id/one"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/two" 
+        android:id="@+id/two"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/three" 
+        android:id="@+id/three"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add" 
+        android:id="@+id/add"/>
+    
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="@string/zero" 
+        android:id="@+id/zero"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/point" 
+        android:id="@+id/ponit"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/equal" 
+        android:id="@+id/equal"/>
+    
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,130 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=5604, tid=5840
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_43-b01
+# Java VM: Java HotSpot(TM) Client VM (20.14-b01 mixed mode windows-x86 )
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x023d9000):  JavaThread "Unknown thread" [_thread_in_vm, id=5840, stack(0x00290000,0x002e0000)]
+
+Stack: [0x00290000,0x002e0000],  sp=0x002df870,  free space=318k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x13490a]
+V  [jvm.dll+0x12f3fb]
+V  [jvm.dll+0x1676e]
+V  [jvm.dll+0x17faf]
+V  [jvm.dll+0x27565]
+V  [jvm.dll+0x27da6]
+V  [jvm.dll+0x28155]
+V  [jvm.dll+0x281e9]
+V  [jvm.dll+0x282ac]
+V  [jvm.dll+0x2832a]
+V  [jvm.dll+0x2840d]
+V  [jvm.dll+0x286d9]
+V  [jvm.dll+0x6cdd3]
+V  [jvm.dll+0x6d1ac]
+V  [jvm.dll+0xfa79c]
+V  [jvm.dll+0x1190eb]
+V  [jvm.dll+0x9f4e0]
+C  [javaw.exe+0x1657]
+C  [javaw.exe+0x1e2c]
+C  [javaw.exe+0x8624]
+C  [KERNEL32.DLL+0x1495d]  BaseThreadInitThunk+0xe
+C  [ntdll.dll+0x498ee]  RtlInitializeExceptionChain+0x84
+C  [ntdll.dll+0x498c4]  RtlInitializeExceptionChain+0x5a
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x023d9000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=5840, stack(0x00290000,0x002e0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00425000 	C:\Program Files (x86)\Java\jdk1.6.0_43\bin\javaw.exe
+0x77860000 - 0x779c8000 	C:\Windows\SYSTEM32\ntdll.dll
+0x76040000 - 0x76180000 	C:\Windows\SYSTEM32\KERNEL32.DLL
+0x75b30000 - 0x75bff000 	C:\Windows\SYSTEM32\KERNELBASE.dll
+0x71bf0000 - 0x71c8a000 	C:\Windows\system32\apphelp.dll
+0x6b6e0000 - 0x6b933000 	C:\Windows\AppPatch\AcGenral.DLL
+0x75640000 - 0x756fe000 	C:\Windows\SYSTEM32\msvcrt.dll
+0x75700000 - 0x7573e000 	C:\Windows\SYSTEM32\sechost.dll
+0x75290000 - 0x752ad000 	C:\Windows\SYSTEM32\SspiCli.dll
+0x75780000 - 0x757c1000 	C:\Windows\SYSTEM32\SHLWAPI.dll
+0x75010000 - 0x750ec000 	C:\Windows\SYSTEM32\UxTheme.dll
+0x76260000 - 0x763af000 	C:\Windows\SYSTEM32\USER32.dll
+0x75920000 - 0x75a28000 	C:\Windows\SYSTEM32\GDI32.dll
+0x747f0000 - 0x74810000 	C:\Windows\SYSTEM32\WINMM.dll
+0x6b6c0000 - 0x6b6d2000 	C:\Windows\SYSTEM32\samcli.dll
+0x75f30000 - 0x7603b000 	C:\Windows\SYSTEM32\ole32.dll
+0x761d0000 - 0x76257000 	C:\Windows\SYSTEM32\OLEAUT32.dll
+0x6b6a0000 - 0x6b6b5000 	C:\Windows\SYSTEM32\MSACM32.dll
+0x75210000 - 0x75218000 	C:\Windows\SYSTEM32\VERSION.dll
+0x763f0000 - 0x77593000 	C:\Windows\SYSTEM32\SHELL32.dll
+0x73470000 - 0x73489000 	C:\Windows\SYSTEM32\USERENV.dll
+0x74ff0000 - 0x75009000 	C:\Windows\SYSTEM32\dwmapi.dll
+0x72280000 - 0x723a4000 	C:\Windows\SYSTEM32\urlmon.dll
+0x75c80000 - 0x75cf7000 	C:\Windows\SYSTEM32\ADVAPI32.dll
+0x71d20000 - 0x71d7e000 	C:\Windows\SYSTEM32\WINSPOOL.DRV
+0x6b680000 - 0x6b694000 	C:\Windows\SYSTEM32\MPR.dll
+0x75360000 - 0x75411000 	C:\Windows\SYSTEM32\RPCRT4.dll
+0x75280000 - 0x75289000 	C:\Windows\SYSTEM32\CRYPTBASE.dll
+0x77610000 - 0x7775e000 	C:\Windows\SYSTEM32\combase.dll
+0x73590000 - 0x735b0000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x734e0000 - 0x734ee000 	C:\Windows\SYSTEM32\profapi.dll
+0x72ce0000 - 0x72ef7000 	C:\Windows\SYSTEM32\iertutil.dll
+0x73140000 - 0x73304000 	C:\Windows\SYSTEM32\WININET.dll
+0x75220000 - 0x75271000 	C:\Windows\SYSTEM32\bcryptPrimitives.dll
+0x763b0000 - 0x763ea000 	C:\Windows\SYSTEM32\cfgmgr32.dll
+0x73570000 - 0x7358f000 	C:\Windows\SYSTEM32\DEVOBJ.dll
+0x734f0000 - 0x73567000 	C:\Windows\SYSTEM32\SHCORE.DLL
+0x77760000 - 0x77785000 	C:\Windows\system32\IMM32.DLL
+0x75a30000 - 0x75b27000 	C:\Windows\SYSTEM32\MSCTF.dll
+0x7c340000 - 0x7c396000 	C:\Program Files (x86)\Java\jdk1.6.0_43\jre\bin\msvcr71.dll
+0x6d8c0000 - 0x6db70000 	C:\Program Files (x86)\Java\jdk1.6.0_43\jre\bin\client\jvm.dll
+0x6d870000 - 0x6d87c000 	C:\Program Files (x86)\Java\jdk1.6.0_43\jre\bin\verify.dll
+0x6d3d0000 - 0x6d3ef000 	C:\Program Files (x86)\Java\jdk1.6.0_43\jre\bin\java.dll
+0x6d8b0000 - 0x6d8bf000 	C:\Program Files (x86)\Java\jdk1.6.0_43\jre\bin\zip.dll
+0x75420000 - 0x75426000 	C:\Windows\system32\PSAPI.DLL
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:E:\安卓开发\所需工具\android-sdk-windows\platforms\android-14\android.jar 
+java_command: cn.why.download.HttpDownloader
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files (x86)\Java\jdk1.6.0_43
+CLASSPATH=.;C:\Program Files (x86)\Java\jdk1.6.0_43\lib\dt.jar;C:\Program Files (x86)\Java\jdk1.6.0_43\lib\tools.jar;
+PATH=C:/Program Files (x86)/Java/jre1.8.0_20/bin/client;C:/Program Files (x86)/Java/jre1.8.0_20/bin;C:/Program Files (x86)/Java/jre1.8.0_20/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Java\jdk1.6.0_43\bin;JAVA_HOME\bin\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 5, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8 , 64 bit Build 9200 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 37 stepping 5, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 3985880k(1691008k free), swap 4968920k(1926352k free)
+
+vm_info: Java HotSpot(TM) Client VM (20.14-b01) for windows-x86 JRE (1.6.0_43-b01), built on Mar  1 2013 02:51:23 by "java_re" with MS VC++ 7.1 (VS2003)
+
+time: Tue Sep 30 16:41:18 2014
+elapsed time: 0 seconds
+
